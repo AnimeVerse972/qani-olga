@@ -1,4 +1,6 @@
-from aiogram import Bot, Dispatcher, executor, types
+import os
+from aiogram import Bot, Dispatcher, types
+from aiogram.executor import start_polling  # <-- executorni toza usulda import qilish
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from keep_alive import keep_alive
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
